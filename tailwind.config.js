@@ -7,11 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage:{
+        "login-background":'url("/background.avif")'
       },
-    },
+      height:{
+        'large-box':'400px'
+      }
+    }  
+    ,
   },
   plugins: [],
 };
